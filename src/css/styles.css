@@ -12,6 +12,6 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
-label  {
+#outputExchange, #outputConvert  {
 color:blanchedalmond;
 }
