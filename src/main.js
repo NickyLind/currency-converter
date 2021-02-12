@@ -77,6 +77,7 @@ $(document).ready(function()  {
   });
   $("#ISK").click(function() {
     $("#output").empty();
+    ISK();
   });
   $("#JPY").click(function() {
     $("#output").empty();

@@ -10,5 +10,5 @@ export default class CurrencyExchange {
       .catch(function(error)  {
         return error;
       });
-    }
   }
+}
