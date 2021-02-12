@@ -6,7 +6,7 @@
 <body>
   <div class="container md-4">
     <label for="currency">Please enter the amount in USD you would like converted</label>
-    <input id="currency" type="number" placeholder="$" min="0" step=".01">
+    <input id="currency" type="number" placeholder="$0.00" min="0" step=".01">
     <div class="row" id="buttons">
       <button class="btn-success" id="CAD">Canadian Dollar (CAD)</button>
       <button class="btn-danger" id="EUR">Euro (EUR)</button>
@@ -16,6 +16,9 @@
     </div>
     <div class="row">
       <div id="output"></div>
+    </div>
+    <div class="row">
+      <button class="btn-dark" id="NON">NOTACURRENCY</button>
     </div>
   </div>
 </body>
