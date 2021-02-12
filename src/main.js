@@ -81,8 +81,10 @@ $(document).ready(function()  {
   });
   $("#JPY").click(function() {
     $("#output").empty();
+    JPY();
   });
   $("#DKK").click(function() {
     $("#output").empty();
+    DKK();
   });
 });
