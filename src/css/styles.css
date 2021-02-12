@@ -24,7 +24,7 @@ color: blanchedalmond;
   border: 10px solid rgb(55, 55, 164);
   border-radius: 12px;
   overflow: scroll;
-  height: 500px;
+  height: 575px;
   width: 300px;
   background-color: royalblue;
 }
@@ -32,12 +32,25 @@ color: blanchedalmond;
 #left {
   border: 5px solid rgb(55, 55, 164);
   border-radius: 10px;
-  background-color: slateblue;
+  background-color: rgb(90, 203, 205);
 }
 
 #right {
   border: 5px solid rgb(55, 55, 164);
   border-radius: 10px;
-  background-color: slateblue;
+  background-color: rgb(90, 203, 205);
+}
+
+#countryList  {
+  border: 5px solid rgb(55, 55, 164);
+  border-radius: 12px;
+  overflow: scroll;
+  height: 150px;
+  width: 550px;
+  margin-bottom: 0px;
+}
+
+#countryListContainer {
+  margin-top: 25px;
 }
 
