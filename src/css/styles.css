@@ -10,20 +10,34 @@ head, body{
 background-image: url(https://www.fairobserver.com/wp-content/uploads/2020/03/markets-2.jpg);
 background-position:fixed;
 background-size:100%;
-/* background-repeat: no-repeat; */
+background-repeat: no-repeat;
 color: blanchedalmond;
 font-size: 25px;
 height: 100%;
 }
 
 #outputExchange, #outputConvert  {
-color:blanchedalmond;
+color: blanchedalmond;
 }
 
 #list  {
-  border: 1px solid;
+  border: 10px solid rgb(55, 55, 164);
+  border-radius: 12px;
   overflow: scroll;
   height: 500px;
-  width: 500px;
+  width: 300px;
+  background-color: royalblue;
+}
+
+#left {
+  border: 5px solid rgb(55, 55, 164);
+  border-radius: 10px;
+  background-color: slateblue;
+}
+
+#right {
+  border: 5px solid rgb(55, 55, 164);
+  border-radius: 10px;
+  background-color: slateblue;
 }
 

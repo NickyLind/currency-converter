@@ -8,7 +8,7 @@
 <body>
   <div class="container" id="input">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6" id="left">
         <div class="row">
           <p id="time">This was the last time conversion rates were updated: <span class="time"></span></p>
         </div>
@@ -23,7 +23,7 @@
           <input id="country" type="text" placeholder="ex: CAD, EUR, JPY" min="0" step=".01">
         </div>
         <div class="row">
-          <button class="btn-success" id="convert">Convert!</button>
+          <button class="btn-primary" id="convert">Convert!</button>
         </div>
         <div class="row">
           <div id="outputExchange"></div>
@@ -32,7 +32,7 @@
           <div id="outputConvert"></div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" id="right">
         <p>Here are the current conversion rates for the USD in each country:</p>
           <div id="list"></div>
       </div>
