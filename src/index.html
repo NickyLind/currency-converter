@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="US-en">
+
 <head>
   <title>Currency Conversion</title>
 </head>
+
 <body>
-  <div class="container md-4">
-    <label for="currency">Please enter the amount in USD you would like converted</label>
-    <input id="currency" type="number" placeholder="$0.00" min="0" step=".01">
-    <div class="row" id="currencies">
-      <label for="country">Please enter the country currency code you would like to convert to:</label>
-      <input id="country" type="text" placeholder="ex: CAD, EUR, JPY" min="0" step=".01">
-    </div>
-      <button class="btn-success" id="convert">convert!</button>
+  <div class="container" id="input">
     <div class="row">
-      <div id="outputExchange"></div>
-    </div>
-    <div class="row">
-      <div id="outputConvert"></div>
+      <div class="col-md-6">
+        <div class="row">
+          <p id="time">This was the last time conversion rates were updated: <span class="time"></span></p>
+        </div>
+        <div class="row">
+          <label for="currency">
+            <p>Please enter the amount in USD you would like converted</p>
+          </label>
+          <input id="currency" type="number" placeholder="$0.00" min="0" step=".01">
+        </div>
+        <div class="row" id="currencies">
+          <label for="country">Please enter the country currency code you would like to convert to:</label>
+          <input id="country" type="text" placeholder="ex: CAD, EUR, JPY" min="0" step=".01">
+        </div>
+        <div class="row">
+          <button class="btn-success" id="convert">Convert!</button>
+        </div>
+        <div class="row">
+          <div id="outputExchange"></div>
+        </div>
+        <div class="row">
+          <div id="outputConvert"></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <p>Here are the current conversion rates for the USD in each country:</p>
+          <div id="list"></div>
+      </div>
     </div>
   </div>
 </body>
+
 </html>

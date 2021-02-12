@@ -1,4 +1,5 @@
 button  {
+font-size: 30px;
 border-radius: 10px;
 width: 200px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -7,11 +8,22 @@ color: blanchedalmond;
 
 head, body{
 background-image: url(https://www.fairobserver.com/wp-content/uploads/2020/03/markets-2.jpg);
-background-position: fixed;
-background-size: cover;
-background-repeat: no-repeat;
+background-position:fixed;
+background-size:100%;
+/* background-repeat: no-repeat; */
+color: blanchedalmond;
+font-size: 25px;
+height: 100%;
 }
 
 #outputExchange, #outputConvert  {
 color:blanchedalmond;
 }
+
+#list  {
+  border: 1px solid;
+  overflow: scroll;
+  height: 500px;
+  width: 500px;
+}
+

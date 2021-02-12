@@ -23,10 +23,34 @@ async function Convert() {
   }
 }
 
+async function ListRates()  {
+  let list = await CurrencyExchange.aquireCurrency();
+  let allCountries = list.conversion_rates;
+  if  (list.result) {
+    for (const [country, value] of Object.entries(allCountries)) {
+      $("#list").append(`${country}: ${value}<br>`);
+    }
+  } else {
+    $("#list").append(`We are having trouble retrieving this information at this time ${list}`);
+  }
+}
+
+async function UpdateTime() {
+  let time = await CurrencyExchange.aquireCurrency();
+  if (time.result)  {
+    $(".time").append(`${time.time_last_update_utc}`)
+  }
+}
+
+window.onload = function()  {
+  ListRates();
+  UpdateTime();
+};
+
 $(document).ready(function () {
   $("#convert").click(function () {
     $("#outputExchange").empty();
-    $("#outputconvert").empty();
+    $("#outputConvert").empty();
     Convert();
   });
 });
