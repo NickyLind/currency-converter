@@ -11,7 +11,7 @@ background-image: url(https://www.fairobserver.com/wp-content/uploads/2020/03/ma
 background-position:fixed;
 background-size:100%;
 background-repeat: no-repeat;
-color: blanchedalmond;
+color: rgb(247, 238, 226);
 font-size: 25px;
 height: 100%;
 }
@@ -26,6 +26,7 @@ color: blanchedalmond;
   overflow: scroll;
   height: 575px;
   width: 300px;
+  margin-bottom: auto;
   background-color: royalblue;
 }
 

@@ -8,7 +8,7 @@ async function Convert() {
   let convert = await CurrencyExchange.aquireCurrency();
   if (convert.result) {
     let USD = $("#currency").val();
-    let country = $("#country").val();
+    let country = $("#country").val().toUpperCase();
     let conversionCountry = convert.conversion_rates[country];
     if (conversionCountry === undefined) {
       $("#outputExchange").append("please enter a valid country code");
