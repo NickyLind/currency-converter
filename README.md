@@ -25,7 +25,7 @@ _This project uses an API to generate the current currency of any country and ca
 ## Setup/Installation Requirements
 
 * _Find the respository at (https://github.com/NickyLind/currency-converter)_
-* _Select the green 'Code' button above the repository and copy the HHTPS link_
+* _Select the green 'Code' button above the repository and copy the HTTPS link_
 * _In your terminal, find the directory you want to place the currency-converter directory in_
 * _In your terminal, use the git command $git clone https://github.com/NickyLind/currency-converter_
 * _In the root directory of the cloned project run $ npm install, to install all node modules_
