@@ -12,7 +12,7 @@
 * _Bootsrap 4.6.0_
 * _Jquery 3.5.1_
 * _Visual Studio Code_
-_Node Package Manager 6.14.9_
+* _Node Package Manager 6.14.9_
 * _webpack 4.39.3_
 * _jest 24.9.0_
 * _eslint 6.3.0_
